@@ -1,0 +1,7 @@
+# Mark jsonserver directory as vendored (exclude from language stats)
+jsonserver/** linguist-vendored
+
+# Ensure React code is counted
+react6/**/*.js linguist-vendored=false linguist-language=JavaScript
+react6/**/*.jsx linguist-vendored=false linguist-language=JavaScript
+react6/**/*.css linguist-vendored=false
